@@ -1,0 +1,28 @@
+name: flutter_openwrap_event_handler_gam_example
+description: Demonstrates how to use the flutter_openwrap_event_handler_gam plugin.
+publish_to: "none"
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+  flutter: ">=3.16.6"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_openwrap_event_handler_gam:
+    path: ../
+  flutter_openwrap_sdk:
+    version: ^3.0.0
+  cupertino_icons: ^1.0.2
+  google_mobile_ads: ">=5.0.0 <10.0.0"
+  permission_handler: ^11.4.0
+  toast: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
